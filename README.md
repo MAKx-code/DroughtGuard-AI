@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)](https://python.org)
 [![IBM Granite](https://img.shields.io/badge/IBM-Granite%20%2F%20watsonx.ai-054ADA?logo=ibm)](https://www.ibm.com/watsonx)
 
-**Agentic AI Hackathon — Team 10** | Bengaluru, Karnataka
+**Agentic AI Hackathon** | Bengaluru, Karnataka
 
 ---
 
