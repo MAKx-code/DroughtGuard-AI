@@ -1,0 +1,40 @@
+# Secrets — never commit
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local databases (regenerated on startup)
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB local vector store (re-seeded on startup)
+chroma_db/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit cache
+.streamlit/cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Temp verification scripts
+_nav_verify.py
+_page_verify.py
+_check_dupes.py
+_verify_providers.py
+_verify_dataset.py

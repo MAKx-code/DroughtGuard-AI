@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1f17"/>
+      <stop offset="100%" stop-color="#1a3328"/>
+    </linearGradient>
+    <linearGradient id="land1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3d2a"/>
+      <stop offset="100%" stop-color="#152b1f"/>
+    </linearGradient>
+    <linearGradient id="land2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243d2f"/>
+      <stop offset="100%" stop-color="#1a2e22"/>
+    </linearGradient>
+    <linearGradient id="field1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a4a35"/>
+      <stop offset="100%" stop-color="#1f3829"/>
+    </linearGradient>
+    <linearGradient id="field2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#304f3c"/>
+      <stop offset="100%" stop-color="#243d2f"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3f4a"/>
+      <stop offset="100%" stop-color="#162d35"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <!-- Distant hills -->
+  <ellipse cx="200" cy="600" rx="400" ry="200" fill="#1a3328" opacity="0.8"/>
+  <ellipse cx="700" cy="580" rx="500" ry="180" fill="#1e3d2a" opacity="0.7"/>
+  <ellipse cx="1200" cy="600" rx="420" ry="210" fill="#1a3328" opacity="0.8"/>
+  <!-- Agricultural fields - far distance -->
+  <rect x="0" y="520" width="240" height="80" rx="2" fill="#243d2f" opacity="0.6"/>
+  <rect x="250" y="510" width="180" height="90" rx="2" fill="#2a4535" opacity="0.6"/>
+  <rect x="440" y="525" width="210" height="75" rx="2" fill="#1f3829" opacity="0.6"/>
+  <rect x="660" y="515" width="160" height="85" rx="2" fill="#264030" opacity="0.6"/>
+  <rect x="830" y="520" width="200" height="80" rx="2" fill="#243d2f" opacity="0.6"/>
+  <rect x="1040" y="510" width="190" height="90" rx="2" fill="#2a4535" opacity="0.6"/>
+  <rect x="1240" y="525" width="200" height="75" rx="2" fill="#1f3829" opacity="0.6"/>
+  <!-- Field dividers far -->
+  <line x1="240" y1="520" x2="250" y2="600" stroke="#152b1f" stroke-width="2" opacity="0.5"/>
+  <line x1="430" y1="510" x2="440" y2="600" stroke="#152b1f" stroke-width="2" opacity="0.5"/>
+  <line x1="650" y1="515" x2="660" y2="600" stroke="#152b1f" stroke-width="2" opacity="0.5"/>
+  <line x1="820" y1="520" x2="830" y2="600" stroke="#152b1f" stroke-width="2" opacity="0.5"/>
+  <line x1="1030" y1="510" x2="1040" y2="600" stroke="#152b1f" stroke-width="2" opacity="0.5"/>
+  <!-- River / irrigation channel -->
+  <path d="M 0 630 Q 360 620 720 635 Q 1080 650 1440 640" stroke="#1e4455" stroke-width="8" fill="none" opacity="0.5"/>
+  <path d="M 0 633 Q 360 623 720 638 Q 1080 653 1440 643" stroke="#2a5a6a" stroke-width="3" fill="none" opacity="0.3"/>
+  <!-- Mid-ground fields -->
+  <rect x="0" y="640" width="280" height="120" rx="3" fill="url(#field1)" opacity="0.9"/>
+  <rect x="290" y="635" width="220" height="130" rx="3" fill="url(#field2)" opacity="0.9"/>
+  <rect x="520" y="645" width="260" height="115" rx="3" fill="url(#field1)" opacity="0.9"/>
+  <rect x="790" y="638" width="200" height="122" rx="3" fill="url(#field2)" opacity="0.9"/>
+  <rect x="1000" y="642" width="240" height="118" rx="3" fill="url(#field1)" opacity="0.9"/>
+  <rect x="1250" y="635" width="190" height="125" rx="3" fill="url(#field2)" opacity="0.9"/>
+  <!-- Crop rows in mid-ground fields -->
+  <g opacity="0.25" stroke="#4a7a5a" stroke-width="1">
+    <line x1="0" y1="655" x2="280" y2="655"/><line x1="0" y1="665" x2="280" y2="665"/>
+    <line x1="0" y1="675" x2="280" y2="675"/><line x1="0" y1="685" x2="280" y2="685"/>
+    <line x1="0" y1="695" x2="280" y2="695"/><line x1="0" y1="705" x2="280" y2="705"/>
+    <line x1="0" y1="715" x2="280" y2="715"/><line x1="0" y1="725" x2="280" y2="725"/>
+    <line x1="290" y1="648" x2="510" y2="648"/><line x1="290" y1="660" x2="510" y2="660"/>
+    <line x1="290" y1="672" x2="510" y2="672"/><line x1="290" y1="684" x2="510" y2="684"/>
+    <line x1="290" y1="696" x2="510" y2="696"/><line x1="290" y1="708" x2="510" y2="708"/>
+    <line x1="520" y1="658" x2="780" y2="658"/><line x1="520" y1="670" x2="780" y2="670"/>
+    <line x1="520" y1="682" x2="780" y2="682"/><line x1="520" y1="694" x2="780" y2="694"/>
+    <line x1="520" y1="706" x2="780" y2="706"/>
+    <line x1="1000" y1="655" x2="1240" y2="655"/><line x1="1000" y1="667" x2="1240" y2="667"/>
+    <line x1="1000" y1="679" x2="1240" y2="679"/><line x1="1000" y1="691" x2="1240" y2="691"/>
+  </g>
+  <!-- Field boundaries mid -->
+  <line x1="280" y1="635" x2="290" y2="765" stroke="#0f2018" stroke-width="3" opacity="0.6"/>
+  <line x1="510" y1="635" x2="520" y2="760" stroke="#0f2018" stroke-width="3" opacity="0.6"/>
+  <line x1="780" y1="638" x2="790" y2="760" stroke="#0f2018" stroke-width="3" opacity="0.6"/>
+  <line x1="990" y1="638" x2="1000" y2="760" stroke="#0f2018" stroke-width="3" opacity="0.6"/>
+  <line x1="1240" y1="635" x2="1250" y2="760" stroke="#0f2018" stroke-width="3" opacity="0.6"/>
+  <!-- Foreground band -->
+  <rect x="0" y="760" width="1440" height="140" fill="#0d1e15" opacity="0.95"/>
+  <!-- Foreground crop silhouettes -->
+  <g fill="#1a3222" opacity="0.8">
+    <rect x="10" y="750" width="4" height="25"/><rect x="30" y="745" width="4" height="30"/>
+    <rect x="50" y="752" width="4" height="22"/><rect x="70" y="748" width="4" height="28"/>
+    <rect x="90" y="750" width="4" height="25"/><rect x="110" y="746" width="4" height="29"/>
+    <rect x="130" y="753" width="4" height="21"/><rect x="150" y="749" width="4" height="27"/>
+    <rect x="170" y="751" width="4" height="23"/><rect x="190" y="747" width="4" height="28"/>
+    <rect x="210" y="750" width="4" height="25"/><rect x="230" y="748" width="4" height="27"/>
+    <rect x="250" y="752" width="4" height="22"/><rect x="270" y="749" width="4" height="26"/>
+  </g>
+  <g fill="#1e3828" opacity="0.7">
+    <rect x="300" y="748" width="4" height="28"/><rect x="320" y="752" width="4" height="22"/>
+    <rect x="340" y="745" width="4" height="31"/><rect x="360" y="750" width="4" height="25"/>
+    <rect x="380" y="747" width="4" height="29"/><rect x="400" y="751" width="4" height="23"/>
+    <rect x="420" y="748" width="4" height="27"/>
+  </g>
+  <!-- Tree silhouettes on horizon -->
+  <g fill="#162a1f" opacity="0.9">
+    <ellipse cx="80" cy="522" rx="18" ry="22"/><rect x="78" y="540" width="4" height="15"/>
+    <ellipse cx="150" cy="518" rx="15" ry="19"/><rect x="148" y="535" width="4" height="12"/>
+    <ellipse cx="380" cy="515" rx="20" ry="25"/><rect x="378" y="538" width="4" height="18"/>
+    <ellipse cx="850" cy="520" rx="17" ry="22"/><rect x="848" y="540" width="4" height="15"/>
+    <ellipse cx="1100" cy="516" rx="22" ry="26"/><rect x="1098" y="540" width="4" height="18"/>
+    <ellipse cx="1360" cy="518" rx="16" ry="20"/><rect x="1358" y="536" width="4" height="13"/>
+  </g>
+  <!-- Overlay to darken everything -->
+  <rect width="1440" height="900" fill="#0d1e15" opacity="0.72"/>
+</svg>
