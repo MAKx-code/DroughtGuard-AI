@@ -208,4 +208,4 @@ DroughtGuard-AI/
 
 ---
 
-*DroughtGuard AI — Team 10 | Agentic AI Hackathon, Bengaluru*
+*DroughtGuard AI — | Agentic AI Hackathon, Bengaluru*
